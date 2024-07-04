@@ -1,71 +1,38 @@
 ###################
-What is CodeIgniter
+📚 Quiz App using CodeIgniter
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Welcome to the Quiz App! This application allows users to select a subject and take quizzes with shuffled options each time. It's built using the CodeIgniter framework.
 
-*******************
-Release Information
-*******************
+ Features
+Select a subject from a list of available subjects.
+Answer shuffled questions with options randomized each time.
+Keep track of scores and progress.
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+🛠️ Installation
+Clone the repository:
 
-**************************
-Changelog and New Features
-**************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+Create a new database.
+Import the provided SQL file (database/quiz_app.sql) into your database.
+Configure the database:
 
-*******************
-Server Requirements
-*******************
+Open application/config/database.php.
+Set your database credentials.
+Run the app:
 
-PHP version 5.6 or newer is recommended.
+Ensure your server is set up to serve CodeIgniter applications.
+Open your browser and navigate to http://your-server/quiz-app.
+🎮 Usage
+Select a Subject:
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+Choose a subject from the list on the homepage.
+Take the Quiz:
 
-************
-Installation
-************
+Answer the questions presented.
+Options will be shuffled each time you take the quiz.
+View Results:
 
-Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Contributing Guide <https://github.com/bcit-ci/CodeIgniter/blob/develop/contributing.md>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+Submit your answers to see your score.
+🤝 Contributing
+contributions! are welcome, Please follow these steps to contribute:
