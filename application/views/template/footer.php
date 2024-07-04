@@ -22,7 +22,9 @@ $(function() {
         height : '400px'
     })
     
-})
+});
+
+alert("Hello");
 </script>
 
 </body>
